@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spiritiitguwahati">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.spiritiitguwahati.Splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.spiritiitguwahati.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.spirit.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.spiritiitguwahati.Cricket"
+            android:label="@string/title_activity_cricket">
+
+        </activity>
+
+        <activity
+            android:name="com.spiritiitguwahati.Football"
+            android:label="@string/title_activity_football"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.BasketBall"
+            android:label="@string/title_activity_basketball"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.Squash"
+            android:label="@string/title_activity_squash"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.Athletics"
+            android:label="@string/title_activity_athletics"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.Badminton"
+            android:label="@string/title_activity_badminton"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.Chess"
+            android:label="@string/title_activity_chess"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.Hockey"
+            android:label="@string/title_activity_hockey"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.TableTennis"
+            android:label="@string/title_activity_table_tennis"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.Tennis"
+            android:label="@string/title_activity_tennis"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.VolleyBall"
+            android:label="@string/title_activity_volley_ball"></activity>
+        <activity
+            android:name="com.spiritiitguwahati.WeightLifting"
+            android:label="@string/title_activity_weight_lifting"></activity>
+    </application>
+
+</manifest>

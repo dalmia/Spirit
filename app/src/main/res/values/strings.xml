@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Spirit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pdf_show_online_dialog_title">Show PDF</string>
+    <string name="pdf_show_online_dialog_question">You are trying to open a PDF file, but you don\'t have a PDF reader installed. Do you want to read the PDF file online with Google Drive (Requires Google account)?</string>
+    <string name="pdf_show_online_dialog_button_yes">Yes, read online</string>
+    <string name="pdf_show_online_dialog_button_no">No</string>
+    <string name="pdf_show_local_progress_title">Please wait</string>
+    <string name="pdf_show_local_progress_content">Downloading PDF&#8230;</string>
+
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Events</item>
+        <item>Results</item>
+        <item>Promo</item>
+        <item>Merchandise</item>
+        <item>Contact</item>
+        <item>Rulebook</item>
+
+
+
+    </string-array>
+
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+
+        <item>@drawable/home</item>
+        <item>@drawable/schedule</item>
+        <item>@drawable/result</item>
+        <item>@drawable/video</item>
+        <item>@drawable/tshirt</item>
+        <item>@drawable/contactmain</item>
+        <item>@drawable/rulebook</item>
+
+
+
+    </array>
+
+
+    <string name="sunday">Sunday</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_basketball">Basketball</string>
+    <string name="title_activity_cricket">Cricket</string>
+    <string name="title_activity_football">Football</string>
+    <string name="title_activity_squash">Squash</string>
+    <string name="title_activity_athletics">Athletic</string>
+    <string name="title_activity_badminton">Badminton</string>
+    <string name="title_activity_chess">Chess</string>
+    <string name="title_activity_hockey">Hockey</string>
+    <string name="title_activity_table_tennis">Table Tennis</string>
+    <string name="title_activity_tennis">Tennis</string>
+    <string name="title_activity_volley_ball">VolleyBall</string>
+    <string name="title_activity_weight_lifting">WeightLifting</string>
+
+</resources>

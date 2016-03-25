@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/cricket"
+                    android:adjustViewBounds="true"
+                    android:src = "@drawable/cricket"
+                    android:layout_weight="0.1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/football"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/football" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/basketball"
+                    android:adjustViewBounds="true"
+                    android:src = "@drawable/basketball"
+                    android:layout_weight="0.1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/athletics"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/athletics"
+                    android:background="@android:color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/hockey"
+                    android:adjustViewBounds="true"
+                    android:src = "@drawable/hockey"
+                    android:layout_weight="0.1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/badminton"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/badminton" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tennis"
+                    android:adjustViewBounds="true"
+                    android:src = "@drawable/tennis"
+                    android:layout_weight="0.1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/volleyball"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/volleyball" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/weightlifting"
+                    android:adjustViewBounds="true"
+                    android:src = "@drawable/weightlifting"
+                    android:layout_weight="0.1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tabletennis"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/tabletennis" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/chess"
+                    android:adjustViewBounds="true"
+                    android:src = "@drawable/chess"
+                    android:layout_weight="0.1" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/squash"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/squash" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
